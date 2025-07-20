@@ -15,9 +15,9 @@ def is_enabled(value, default):
 #main variables
 API_ID = int(environ.get('API_ID', '27084955'))
 API_HASH = environ.get('API_HASH', '91c88b554ab2a34f8b0c72228f06fc0b')
-BOT_TOKEN = environ.get('BOT_TOKEN', '5804953849')
+BOT_TOKEN = environ.get('BOT_TOKEN', '7777252416:AAElnBwEZH3VKwnUGapgvjaxcrGw7HnwYsY')
 
-ADMINS = [int(admin) if id_pattern.search(admin) else admin for admin in environ.get('ADMINS', '6316008361 6157414954 6796307271').split()]
+ADMINS = [int(admin) if id_pattern.search(admin) else admin for admin in environ.get('ADMINS', '5804953849').split()]
 USERNAME = environ.get('USERNAME', "https://te.meraj_dev_01")
 LOG_CHANNEL = int(environ.get('LOG_CHANNEL', '-1002350618294'))
 MOVIE_GROUP_LINK = environ.get('MOVIE_GROUP_LINK', 'https://t.me/+u4cmm3JmIrFlNzZl')
